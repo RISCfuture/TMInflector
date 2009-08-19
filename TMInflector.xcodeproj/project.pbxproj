@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01760386103677EB00C41B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760377103677EB00C41B6C /* main.m */; };
+		01760387103677EB00C41B6C /* NSString+TMInflections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037B103677EB00C41B6C /* NSString+TMInflections.m */; };
+		01760388103677EB00C41B6C /* RKRegex+TMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037D103677EB00C41B6C /* RKRegex+TMAdditions.m */; };
+		01760389103677EB00C41B6C /* TMInflector+Inflections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037F103677EB00C41B6C /* TMInflector+Inflections.m */; };
+		0176038A103677EB00C41B6C /* TMInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760381103677EB00C41B6C /* TMInflector.m */; };
+		0176038E103677EF00C41B6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0176038D103677EF00C41B6C /* MainMenu.xib */; };
+		01760390103677F400C41B6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0176038F103677F400C41B6C /* InfoPlist.strings */; };
+		0176039510373B5A00C41B6C /* RegexKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176039410373B5A00C41B6C /* RegexKit.framework */; };
+		0176039810373B7100C41B6C /* RegexKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0176039410373B5A00C41B6C /* RegexKit.framework */; };
+		017603E810373F5500C41B6C /* TM_InfEx_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 017603E710373F5500C41B6C /* TM_InfEx_Model.m */; };
+		017603EE1037400D00C41B6C /* TM_InfEx_ValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 017603ED1037400D00C41B6C /* TM_InfEx_ValueTransformer.m */; };
+		01A307F5103945D900D481A7 /* RegexKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176039410373B5A00C41B6C /* RegexKit.framework */; };
+		01A307F91039464500D481A7 /* RegexKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0176039410373B5A00C41B6C /* RegexKit.framework */; };
+		01A308021039DC8500D481A7 /* TMInflectorTestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A308011039DC8500D481A7 /* TMInflectorTestCases.m */; };
+		01D49C4D1039370900C7ECF4 /* NSString+TMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D49C4C1039370900C7ECF4 /* NSString+TMAdditions.m */; };
+		01D49C4F1039371800C7ECF4 /* NSString+TMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D49C4C1039370900C7ECF4 /* NSString+TMAdditions.m */; };
+		01D49C511039371800C7ECF4 /* NSString+TMInflections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037B103677EB00C41B6C /* NSString+TMInflections.m */; };
+		01D49C531039371800C7ECF4 /* RKRegex+TMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037D103677EB00C41B6C /* RKRegex+TMAdditions.m */; };
+		01D49C551039371800C7ECF4 /* TMInflector+Inflections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176037F103677EB00C41B6C /* TMInflector+Inflections.m */; };
+		01D49C571039371800C7ECF4 /* TMInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760381103677EB00C41B6C /* TMInflector.m */; };
+		01D49C65103937D200C7ECF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		01D49C76103938F600C7ECF4 /* TMInflectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D49C75103938F600C7ECF4 /* TMInflectorTest.m */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0176039C10373B8F00C41B6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0176039810373B7100C41B6C /* RegexKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D49C6B1039381000C7ECF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01A307F91039464500D481A7 /* RegexKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01760377103677EB00C41B6C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01760378103677EB00C41B6C /* TMInflector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInflector_Prefix.pch; sourceTree = "<group>"; };
+		0176037A103677EB00C41B6C /* NSString+TMInflections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMInflections.h"; sourceTree = "<group>"; };
+		0176037B103677EB00C41B6C /* NSString+TMInflections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMInflections.m"; sourceTree = "<group>"; };
+		0176037C103677EB00C41B6C /* RKRegex+TMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKRegex+TMAdditions.h"; sourceTree = "<group>"; };
+		0176037D103677EB00C41B6C /* RKRegex+TMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKRegex+TMAdditions.m"; sourceTree = "<group>"; };
+		0176037E103677EB00C41B6C /* TMInflector+Inflections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TMInflector+Inflections.h"; sourceTree = "<group>"; };
+		0176037F103677EB00C41B6C /* TMInflector+Inflections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TMInflector+Inflections.m"; sourceTree = "<group>"; };
+		01760380103677EB00C41B6C /* TMInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInflector.h; sourceTree = "<group>"; };
+		01760381103677EB00C41B6C /* TMInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInflector.m; sourceTree = "<group>"; };
+		01760383103677EB00C41B6C /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01760384103677EB00C41B6C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0176039410373B5A00C41B6C /* RegexKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RegexKit.framework; path = /Developer/Local/Frameworks/RegexKit.framework; sourceTree = "<absolute>"; };
+		017603E610373F5500C41B6C /* TM_InfEx_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TM_InfEx_Model.h; sourceTree = "<group>"; };
+		017603E710373F5500C41B6C /* TM_InfEx_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TM_InfEx_Model.m; sourceTree = "<group>"; };
+		017603EC1037400D00C41B6C /* TM_InfEx_ValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TM_InfEx_ValueTransformer.h; sourceTree = "<group>"; };
+		017603ED1037400D00C41B6C /* TM_InfEx_ValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TM_InfEx_ValueTransformer.m; sourceTree = "<group>"; };
+		01A308001039DC8500D481A7 /* TMInflectorTestCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInflectorTestCases.h; sourceTree = "<group>"; };
+		01A308011039DC8500D481A7 /* TMInflectorTestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInflectorTestCases.m; sourceTree = "<group>"; };
+		01D49C431039363A00C7ECF4 /* TMInflectorUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMInflectorUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D49C4B1039370900C7ECF4 /* NSString+TMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMAdditions.h"; sourceTree = "<group>"; };
+		01D49C4C1039370900C7ECF4 /* NSString+TMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMAdditions.m"; sourceTree = "<group>"; };
+		01D49C74103938F600C7ECF4 /* TMInflectorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInflectorTest.h; sourceTree = "<group>"; };
+		01D49C75103938F600C7ECF4 /* TMInflectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMInflectorTest.m; sourceTree = "<group>"; };
+		01D49CB310393EAB00C7ECF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D49CB510393EB100C7ECF4 /* TMInflectorUnitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TMInflectorUnitTests-Info.plist"; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* TMInflector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMInflector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D49C401039363A00C7ECF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A307F5103945D900D481A7 /* RegexKit.framework in Frameworks */,
+				01D49C65103937D200C7ECF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0176039510373B5A00C41B6C /* RegexKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01760375103677EB00C41B6C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				01D49C74103938F600C7ECF4 /* TMInflectorTest.h */,
+				01D49C75103938F600C7ECF4 /* TMInflectorTest.m */,
+				01A308001039DC8500D481A7 /* TMInflectorTestCases.h */,
+				01A308011039DC8500D481A7 /* TMInflectorTestCases.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		01760376103677EB00C41B6C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01760377103677EB00C41B6C /* main.m */,
+				01760378103677EB00C41B6C /* TMInflector_Prefix.pch */,
+				017603E610373F5500C41B6C /* TM_InfEx_Model.h */,
+				017603E710373F5500C41B6C /* TM_InfEx_Model.m */,
+				017603EC1037400D00C41B6C /* TM_InfEx_ValueTransformer.h */,
+				017603ED1037400D00C41B6C /* TM_InfEx_ValueTransformer.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		01760379103677EB00C41B6C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				01D49C4B1039370900C7ECF4 /* NSString+TMAdditions.h */,
+				01D49C4C1039370900C7ECF4 /* NSString+TMAdditions.m */,
+				0176037A103677EB00C41B6C /* NSString+TMInflections.h */,
+				0176037B103677EB00C41B6C /* NSString+TMInflections.m */,
+				0176037C103677EB00C41B6C /* RKRegex+TMAdditions.h */,
+				0176037D103677EB00C41B6C /* RKRegex+TMAdditions.m */,
+				0176037E103677EB00C41B6C /* TMInflector+Inflections.h */,
+				0176037F103677EB00C41B6C /* TMInflector+Inflections.m */,
+				01760380103677EB00C41B6C /* TMInflector.h */,
+				01760381103677EB00C41B6C /* TMInflector.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		01760382103677EB00C41B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0176038F103677F400C41B6C /* InfoPlist.strings */,
+				0176038D103677EF00C41B6C /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0176039410373B5A00C41B6C /* RegexKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TMInflector.app */,
+				01D49C431039363A00C7ECF4 /* TMInflectorUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TMInflector */ = {
+			isa = PBXGroup;
+			children = (
+				01D49CB310393EAB00C7ECF4 /* Info.plist */,
+				01D49CB510393EB100C7ECF4 /* TMInflectorUnitTests-Info.plist */,
+				01760379103677EB00C41B6C /* Library */,
+				01760376103677EB00C41B6C /* Other Sources */,
+				01760375103677EB00C41B6C /* Tests */,
+				01760382103677EB00C41B6C /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TMInflector;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D49C421039363A00C7ECF4 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D49C471039363A00C7ECF4 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				01D49C3F1039363A00C7ECF4 /* Sources */,
+				01D49C401039363A00C7ECF4 /* Frameworks */,
+				01D49C6B1039381000C7ECF4 /* CopyFiles */,
+				01D49C411039363A00C7ECF4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Tests";
+			productName = UnitbTests;
+			productReference = 01D49C431039363A00C7ECF4 /* TMInflectorUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* TMInflector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TMInflector" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				0176039C10373B8F00C41B6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMInflector;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TMInflector;
+			productReference = 8D1107320486CEB800E47090 /* TMInflector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TMInflector" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TMInflector */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TMInflector */,
+				01D49C421039363A00C7ECF4 /* Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01760390103677F400C41B6C /* InfoPlist.strings in Resources */,
+				0176038E103677EF00C41B6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D49C411039363A00C7ECF4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D49C3F1039363A00C7ECF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D49C4F1039371800C7ECF4 /* NSString+TMAdditions.m in Sources */,
+				01D49C511039371800C7ECF4 /* NSString+TMInflections.m in Sources */,
+				01D49C531039371800C7ECF4 /* RKRegex+TMAdditions.m in Sources */,
+				01D49C551039371800C7ECF4 /* TMInflector+Inflections.m in Sources */,
+				01D49C571039371800C7ECF4 /* TMInflector.m in Sources */,
+				01D49C76103938F600C7ECF4 /* TMInflectorTest.m in Sources */,
+				01A308021039DC8500D481A7 /* TMInflectorTestCases.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01760386103677EB00C41B6C /* main.m in Sources */,
+				01760387103677EB00C41B6C /* NSString+TMInflections.m in Sources */,
+				01760388103677EB00C41B6C /* RKRegex+TMAdditions.m in Sources */,
+				01760389103677EB00C41B6C /* TMInflector+Inflections.m in Sources */,
+				0176038A103677EB00C41B6C /* TMInflector.m in Sources */,
+				017603E810373F5500C41B6C /* TM_InfEx_Model.m in Sources */,
+				017603EE1037400D00C41B6C /* TM_InfEx_ValueTransformer.m in Sources */,
+				01D49C4D1039370900C7ECF4 /* NSString+TMAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0176038D103677EF00C41B6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01760384103677EB00C41B6C /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0176038F103677F400C41B6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01760383103677EB00C41B6C /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D49C451039363A00C7ECF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/TMInflector_Prefix.pch";
+				INFOPLIST_FILE = "TMInflectorUnitTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					RegexKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TMInflectorUnitTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01D49C461039363A00C7ECF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/TMInflector_Prefix.pch";
+				INFOPLIST_FILE = "TMInflectorUnitTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					RegexKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TMInflectorUnitTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/TMInflector_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TMInflector;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Local/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/TMInflector_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TMInflector;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D49C471039363A00C7ECF4 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D49C451039363A00C7ECF4 /* Debug */,
+				01D49C461039363A00C7ECF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TMInflector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TMInflector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
