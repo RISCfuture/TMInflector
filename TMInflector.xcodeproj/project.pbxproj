@@ -56,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0134A7CA103BC5CD00E2F1C6 /* TMInflector-Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TMInflector-Base.h"; sourceTree = "<group>"; };
 		01760377103677EB00C41B6C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01760378103677EB00C41B6C /* TMInflector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMInflector_Prefix.pch; sourceTree = "<group>"; };
 		0176037A103677EB00C41B6C /* NSString+TMInflections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMInflections.h"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				0176037F103677EB00C41B6C /* TMInflector+Inflections.m */,
 				01760380103677EB00C41B6C /* TMInflector.h */,
 				01760381103677EB00C41B6C /* TMInflector.m */,
+				0134A7CA103BC5CD00E2F1C6 /* TMInflector-Base.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";
