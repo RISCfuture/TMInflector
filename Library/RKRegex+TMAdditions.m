@@ -10,7 +10,7 @@ static RKRegex *reservedCharacters = NULL;
 }
 
 + (NSString *) escapedSubpatternReferenceString:(NSString *)string {
-	NSMutableString *result = [NSMutableString stringWithString:result];
+	NSMutableString *result = [NSMutableString stringWithString:string];
 	[result replaceOccurrencesOfString:@"$" withString:@"$$" options:NSLiteralSearch range:NSMakeRange(0, [result length])];
 	[result replaceOccurrencesOfString:@"\\" withString:@"\\\\" options:NSLiteralSearch range:NSMakeRange(0, [result length])];
 	return result;
